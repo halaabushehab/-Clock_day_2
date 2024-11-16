@@ -29,7 +29,16 @@
  
 
     <script> 
+function setDate(){
+const now=new Date();
+const seconds=now.getSeconds();
+const secondsDeg = (second/60)*360
+console.log(seconds)
 
+
+}
+
+setInterval(setDate,1000)
 
 
     </script>
